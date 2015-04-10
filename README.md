@@ -1,15 +1,11 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+The Player moves toward the water.
+The Enemies bump the player to send the player back to start.
+The player wins when they reach the water.
 
-for self-checking their submission.
-
-The Player must cross the road to get to the water.
-The Bug-Enemy will try to stop you from crossing the road by bumping into you.  When the Bug-Enemy bumps you, you die and restart on from the grass.  After 3 lives/restarts the game is over.
-When you reach the water you win.
-
-This project provided experience with object-oriented Javascript and the HTML5 Canvas.
+The goal of this project is to learn about object-oriented Javascript and the HTML5 Canvas.
 
 **Associated Udacity courses include:**
 
@@ -18,13 +14,11 @@ This project provided experience with object-oriented Javascript and the HTML5 C
 
 **Goal of the Project:**
 
-* In this project you will write the JavaScript that powers your own interactive resume.
-
-*This project is meant to be completed while taking the JavaScript Basics course. Throughout the course you'll build your resume by writing a JS script that will combine your personal information with pre-written HTML and CSS templates to generate your resume.
+* This project writes the JavaScript that powers the arcade game.
 
 **Results:**
 
-An error free resume with all the basic requirements meet.
+A clean running arcade game which meets specifications.
 
 ###Resources Used:
 
@@ -41,7 +35,7 @@ An error free resume with all the basic requirements meet.
 * [Piazza Forums](https://piazza.com/class/i36sqlrb9xu332)
 * [Google Search "js validator"](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=js+validator)
 * JAVASCRIPT & JQUERY - John Duckett
-* Thanks you to Udacity, my classmates Mikhak Misaghian, Ben Plant and others for all your help!
+* Thanks you to Udacity, Mikhak Misaghian, Ben Plant and other classmates for the help!
 * [jslint](http://jslint.com/)
 * [Google JavaScript Tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
 * [jshint](http://jshint.com/)
