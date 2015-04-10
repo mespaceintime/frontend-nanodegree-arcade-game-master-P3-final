@@ -1,11 +1,24 @@
 frontend-nanodegree-arcade-game
 ===============================
+**How to Play:**
+
+Open the index.html in your browser.
+
+Use the keyboard arrow keys (up, down, left, and right) to move the player.
 
 The Player moves toward the water.
-The Enemies bump the player to send the player back to start.
-The player wins when they reach the water.
 
-The goal of this project is to learn about object-oriented Javascript and the HTML5 Canvas.
+The Enemies bump the player to send the player back to start.
+
+The player wins when the player reaches the water.
+
+===============================
+**Goal of the Project:**
+* The goal of this project is to learn about object-oriented Javascript and the HTML5 Canvas.
+
+**Results:**
+
+A clean running arcade game which meets specifications.
 
 **Associated Udacity courses include:**
 
