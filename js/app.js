@@ -1,17 +1,15 @@
 /* ******* Variables ******* */
 var currentPlayer;
-var Player;
 var x;
 var y;
 var speed;
-var Enemy;
 var dist;
 var begin = false;
 var player1 = false;
 
 /* ******* Enemies ******* */
 // Enemies our player must avoid
-Enemy = function () {
+var Enemy = function () {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
 
@@ -67,7 +65,7 @@ Enemy.prototype.render = function() {
 };
 
 /* ******* Player ******* */
-Player = function(x, y) {
+var Player = function(x, y) {
     // Initializing
     this.sprite = 'images/char-princess-girl.png';
     this.row = x;
@@ -122,7 +120,11 @@ Player.prototype.handleInput = function(key) {
 var bug1 = new Enemy(120,120);
 var bug2 = new Enemy(220,220);
 var bug3 = new Enemy(320,320);
-var allEnemies = [bug1, bug2, bug3];
+var allEnemies = [
+  bug1, 
+  bug2, 
+  bug3
+  ];
 var player = new Player(400, 400);
 
 // This listens for key presses and sends the keys to your

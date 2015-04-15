@@ -100,8 +100,7 @@ var Engine = (function(global) {
     /* This function initially draws the "game level", it will then call
      * the renderEntities function. Remember, this function is called every
      * game tick (or loop of the game engine) because that's how games work -
-     * they are 
-     pbooks creating the illusion of animation but in reality
+     * they are flipbooks creating the illusion of animation but in reality
      * they are just drawing the entire screen over and over.
      */
     function render() {
@@ -173,7 +172,7 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-princess-girl.png'
+        'images/char-boy.png'
     ]);
     Resources.onReady(init);
 
